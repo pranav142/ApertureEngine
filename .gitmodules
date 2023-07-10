@@ -1,0 +1,3 @@
+[submodule "Aperture/vendor/spdlog"]
+	path = Aperture/vendor/spdlog
+	url = https://github.com/gabime/spdlog.git
