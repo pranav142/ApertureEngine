@@ -21,11 +21,11 @@ namespace Aperture {
 }
 
 // Macros For Core Logging
-#define AE_CORE_TRACE(...)  ::Aperture::Log::GetClientLogger()->trace(__VA_ARGS__);
-#define AE_CORE_INFO(...)  ::Aperture::Log::GetClientLogger()->info(__VA_ARGS__);
-#define AE_CORE_WARN(...)  ::Aperture::Log::GetClientLogger()->warn(__VA_ARGS__);
-#define AE_CORE_ERROR(...)  ::Aperture::Log::GetClientLogger()->error(__VA_ARGS__);
-#define AE_CORE_FATAL(...)  ::Aperture::Log::GetClientLogger()->fatal(__VA_ARGS__);
+#define AE_CORE_TRACE(...)  ::Aperture::Log::GetCoreLogger()->trace(__VA_ARGS__);
+#define AE_CORE_INFO(...)  ::Aperture::Log::GetCoreLogger()->info(__VA_ARGS__);
+#define AE_CORE_WARN(...)  ::Aperture::Log::GetCoreLogger()->warn(__VA_ARGS__);
+#define AE_CORE_ERROR(...)  ::Aperture::Log::GetCoreLogger()->error(__VA_ARGS__);
+#define AE_CORE_FATAL(...)  ::Aperture::Log::GetCoreLogger()->fatal(__VA_ARGS__);
 
 // Macros For Client Logging
 #define AE_TRACE(...)		::Aperture::Log::GetClientLogger()->trace(__VA_ARGS__);

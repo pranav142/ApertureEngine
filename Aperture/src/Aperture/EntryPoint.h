@@ -9,7 +9,7 @@ int main(int argc, char** argv)
 {	
 	Aperture::Log::Init();
 	AE_CORE_ERROR("Hello!");
-	AE_WARN("Welcome To Aperture Engine")
+	AE_WARN("Welcome To Aperture Engine");	
 
 	auto app = Aperture::CreateApplication();
 	app->Run();

@@ -26,6 +26,7 @@ project "Aperture"
 
     includedirs
     {
+        "{%prj.name}/src",
         "Aperture/vendor/spdlog/include"
     }
 

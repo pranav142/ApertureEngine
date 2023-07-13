@@ -4,6 +4,9 @@
     <Filter Include="Aperture">
       <UniqueIdentifier>{4D79CE19-3946-2925-625F-17CD4E8B5EB3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Aperture\Events">
+      <UniqueIdentifier>{910CEF3E-FD97-5C03-06A9-DFF772B3B803}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Aperture.h" />
@@ -15,6 +18,15 @@
     </ClInclude>
     <ClInclude Include="src\Aperture\EntryPoint.h">
       <Filter>Aperture</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Aperture\Events\Event.h">
+      <Filter>Aperture\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Aperture\Events\KeyEvent.h">
+      <Filter>Aperture\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Aperture\Events\MouseEvent.h">
+      <Filter>Aperture\Events</Filter>
     </ClInclude>
     <ClInclude Include="src\Aperture\Log.h">
       <Filter>Aperture</Filter>
