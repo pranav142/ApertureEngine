@@ -50,7 +50,7 @@ namespace Aperture
 			ss << ", shift = " << m_shiftModifier;
 			ss << ", ctrl = " << m_ctrlModifier;
 			ss << ", alt = " << m_altModifier << ")";
-			ss << ", Event Occured: " << m_Timestamp << std::endl;
+			ss << ", Event Occured: " << m_Timestamp;
 			return ss.str();
 		}
 		

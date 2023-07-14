@@ -150,6 +150,7 @@
     <ClInclude Include="src\Aperture\Application.h" />
     <ClInclude Include="src\Aperture\Core.h" />
     <ClInclude Include="src\Aperture\EntryPoint.h" />
+    <ClInclude Include="src\Aperture\Events\ApplicationEvent.h" />
     <ClInclude Include="src\Aperture\Events\Event.h" />
     <ClInclude Include="src\Aperture\Events\KeyEvent.h" />
     <ClInclude Include="src\Aperture\Events\MouseEvent.h" />

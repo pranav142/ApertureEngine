@@ -4,6 +4,7 @@
 #include <string>
 #include <chrono>
 #include "../Log.h"
+#include <iostream>
 
 namespace Aperture
 {	
@@ -11,7 +12,7 @@ namespace Aperture
 	{
 		None = 0,
 		WindowClose, WindowResize, WindowFocus, WindowLostFocus, WindowMoved,
-		KeyPressed, KeyReleased, KeyTyped,
+		KeyPressed, KeyReleased,
 		MouseButtonPressed, MouseButtonReleased, MouseMoved, MouseScrolled
 	};
 
