@@ -4,6 +4,12 @@
     <Filter Include="Aperture">
       <UniqueIdentifier>{4D79CE19-3946-2925-625F-17CD4E8B5EB3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Aperture\Components">
+      <UniqueIdentifier>{42D490BA-AE35-6EC8-37A3-B47AA303A587}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Aperture\Entities">
+      <UniqueIdentifier>{A158B571-0D6F-B307-56E6-3E29C23B848F}</UniqueIdentifier>
+    </Filter>
     <Filter Include="Aperture\Events">
       <UniqueIdentifier>{910CEF3E-FD97-5C03-06A9-DFF772B3B803}</UniqueIdentifier>
     </Filter>
@@ -13,8 +19,14 @@
     <ClInclude Include="src\Aperture\Application.h">
       <Filter>Aperture</Filter>
     </ClInclude>
+    <ClInclude Include="src\Aperture\Components\component.h">
+      <Filter>Aperture\Components</Filter>
+    </ClInclude>
     <ClInclude Include="src\Aperture\Core.h">
       <Filter>Aperture</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Aperture\Entities\Entity.h">
+      <Filter>Aperture\Entities</Filter>
     </ClInclude>
     <ClInclude Include="src\Aperture\EntryPoint.h">
       <Filter>Aperture</Filter>

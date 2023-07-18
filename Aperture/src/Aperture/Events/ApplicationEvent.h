@@ -4,7 +4,7 @@
 
 namespace Aperture
 {
-	class WindowCloseEvent : public Event
+	class AE_API WindowCloseEvent : public Event
 	{
 	public:
 		WindowCloseEvent(){}
@@ -28,7 +28,7 @@ namespace Aperture
 		}
 	};
 
-	class WindowResizeEvent : public Event
+	class AE_API WindowResizeEvent : public Event
 	{
 	public: 
 		WindowResizeEvent(const int width, const int height) 

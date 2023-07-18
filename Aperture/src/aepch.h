@@ -1,6 +1,8 @@
 #pragma once
 
-#include <Windows.h>
+#ifdef AE_PLATFORM_WINDOWS
+	#include <Windows.h>
+#endif
 
 #include <iostream>
 #include <string>

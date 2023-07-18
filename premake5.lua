@@ -31,7 +31,8 @@ project "Aperture"
     includedirs
     {
         "Aperture/src",
-        "Aperture/vendor/spdlog/include"
+        "Aperture/vendor/spdlog/include",
+        "Aperture/vendor/sfml/include"
     }
 
     filter "system:windows"
