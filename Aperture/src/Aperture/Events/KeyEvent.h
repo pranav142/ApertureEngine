@@ -1,8 +1,6 @@
 #pragma once
 
-#include <string>
 #include "Event.h"
-#include <sstream>
 
 namespace Aperture
 {

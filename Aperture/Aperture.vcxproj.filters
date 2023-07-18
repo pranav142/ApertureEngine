@@ -19,6 +19,9 @@
     <ClInclude Include="src\Aperture\EntryPoint.h">
       <Filter>Aperture</Filter>
     </ClInclude>
+    <ClInclude Include="src\Aperture\Events\ApplicationEvent.h">
+      <Filter>Aperture\Events</Filter>
+    </ClInclude>
     <ClInclude Include="src\Aperture\Events\Event.h">
       <Filter>Aperture\Events</Filter>
     </ClInclude>
@@ -31,7 +34,7 @@
     <ClInclude Include="src\Aperture\Log.h">
       <Filter>Aperture</Filter>
     </ClInclude>
-    <ClInclude Include="src\Aperture\Events\ApplicationEvent.h" />
+    <ClInclude Include="src\aepch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Aperture\Application.cpp">
@@ -40,5 +43,6 @@
     <ClCompile Include="src\Aperture\Log.cpp">
       <Filter>Aperture</Filter>
     </ClCompile>
+    <ClCompile Include="src\aepch.cpp" />
   </ItemGroup>
 </Project>

@@ -17,6 +17,10 @@ project "Aperture"
 
     targetdir ("bin/" ..outputdir.. "/%{prj.name}")
     objdir ("bin-int/" ..outputdir.. "/%{prj.name}")
+    
+    pchheader "aepch.h"
+    pchsource "Aperture/src/aepch.cpp"
+
 
     files
     {
@@ -26,7 +30,7 @@ project "Aperture"
 
     includedirs
     {
-        "{%prj.name}/src",
+        "Aperture/src",
         "Aperture/vendor/spdlog/include"
     }
 

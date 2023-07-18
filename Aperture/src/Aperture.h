@@ -9,4 +9,5 @@
 #include "Aperture/Events/Event.h"
 #include "Aperture/Events/KeyEvent.h"
 #include "Aperture/Events/MouseEvent.h"
+#include "Aperture/Events/ApplicationEvent.h"
 #include "Aperture/EntryPoint.h"

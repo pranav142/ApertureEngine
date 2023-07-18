@@ -1,17 +1,14 @@
 #pragma once
+
+#include "aepch.h"
 #include "../Core.h"
-#include <functional>
-#include <string>
-#include <chrono>
-#include "../Log.h"
-#include <iostream>
 
 namespace Aperture
 {	
 	enum class EventType
 	{
 		None = 0,
-		WindowClose, WindowResize, WindowFocus, WindowLostFocus, WindowMoved,
+		WindowClose, WindowResize,
 		KeyPressed, KeyReleased,
 		MouseButtonPressed, MouseButtonReleased, MouseMoved, MouseScrolled
 	};
